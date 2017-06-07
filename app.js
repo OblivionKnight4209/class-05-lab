@@ -7,8 +7,15 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
+function sum(input1, input2) {
+  var total = input1 + input2;
+  var stringOutcome = 'The sum of ' + input1 + ' and ' + input2 + ' is 11.';
+  var outcome = [total, stringOutcome];
 
+return outcome;
+}
 // Here is the test for sum(); uncomment it to run it
+
 testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle, synchronize the code between both GitHubs and both laptops, and swap Driver/Navigator roles. Don't forget to create a new branch for your work on the next question!
