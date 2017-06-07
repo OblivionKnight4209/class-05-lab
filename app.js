@@ -9,7 +9,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(input1, input2) {
   var total = input1 + input2;
-  var stringOutcome = 'The sum of ' + input1 + ' and ' + input2 + ' is 11.';
+  var stringOutcome = 'The sum of ' + input1 + ' and ' + input2 + ' is ' + total + '.';
   var outcome = [total, stringOutcome];
 
 return outcome;
@@ -29,7 +29,13 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
+function multiply(input3, input4){
+  var totalFromSum = input3 * input4;
+  var stringOutcomeSum = 'The product of ' + input3 + ' and ' +  input4 + ' is ' + totalFromSum + '.';
+  var outcomeFromSum = [totalFromSum, stringOutcomeSum];
 
+  return outcomeFromSum;
+}
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(4,7);
 
